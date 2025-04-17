@@ -1,0 +1,6 @@
+# Replace with the actual URL of the file you want to download
+$url = "https://www.kaggle.com/datasets/momanyc/museum-collection?select=artworks.csv"
+# Replace with the desired path and filename for the downloaded file
+$path = "C:\Users\grace\Desktop\DSCI 235\Project\artworks.csv"
+# Use Invoke-WebRequest to download the file
+Invoke-WebRequest -Uri $url -OutFile $path
